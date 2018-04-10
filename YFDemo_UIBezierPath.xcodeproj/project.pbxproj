@@ -13,6 +13,7 @@
 		18918717207C6A85002F89B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18918716207C6A85002F89B0 /* Assets.xcassets */; };
 		1891871A207C6A85002F89B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18918718207C6A85002F89B0 /* LaunchScreen.storyboard */; };
 		1891871D207C6A85002F89B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891871C207C6A85002F89B0 /* main.m */; };
+		18918725207C6B1D002F89B0 /* YFUIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18918724207C6B1D002F89B0 /* YFUIBezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18918719207C6A85002F89B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1891871B207C6A85002F89B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1891871C207C6A85002F89B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18918723207C6B1D002F89B0 /* YFUIBezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFUIBezierPathView.h; sourceTree = "<group>"; };
+		18918724207C6B1D002F89B0 /* YFUIBezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFUIBezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1891870E207C6A85002F89B0 /* AppDelegate.m */,
 				18918710207C6A85002F89B0 /* ViewController.h */,
 				18918711207C6A85002F89B0 /* ViewController.m */,
+				18918723207C6B1D002F89B0 /* YFUIBezierPathView.h */,
+				18918724207C6B1D002F89B0 /* YFUIBezierPathView.m */,
 				18918713207C6A85002F89B0 /* Main.storyboard */,
 				18918716207C6A85002F89B0 /* Assets.xcassets */,
 				18918718207C6A85002F89B0 /* LaunchScreen.storyboard */,
@@ -97,6 +102,7 @@
 		18918702207C6A85002F89B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = yafei;
 				TargetAttributes = {
@@ -143,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18918712207C6A85002F89B0 /* ViewController.m in Sources */,
+				18918725207C6B1D002F89B0 /* YFUIBezierPathView.m in Sources */,
 				1891871D207C6A85002F89B0 /* main.m in Sources */,
 				1891870F207C6A85002F89B0 /* AppDelegate.m in Sources */,
 			);

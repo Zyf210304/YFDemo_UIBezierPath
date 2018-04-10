@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YFUIBezierPathView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    YFUIBezierPathView *bezView = [[YFUIBezierPathView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    bezView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:bezView];
+
 }
 
 
